@@ -19,7 +19,7 @@ def produce_messages(json_str, client, stream_ocid):
 with open('../enhanced_livelabs.json', 'r') as file:
     livelabs = json.load(file)
 
-print("Total Data Size:", len(crawled_messages))
+print("Total Data Size:", len(livelabs))
 
 config = oci.config.from_file()
 stream_client = oci.streaming.StreamClient(config, service_endpoint=MESSAGE_ENDPOINT)
