@@ -4,8 +4,8 @@ import json
 from json import dumps
 
 STREAM_NAME='enhanced_stream' #in your compartment
-#STREAM_OCID='<STREAM_OCID>'
-STREAM_OCID='ocid1.stream.oc1.ap-tokyo-1.amaaaaaavsea7yiaijzsy76jk5mtoollwrdrwur32mgc34ou4mrz2juduzlq'
+STREAM_OCID='<STREAM_OCID>'
+#STREAM_OCID='ocid1.stream.oc1.ap-tokyo-1.amaaaaaavsea7yiaijzsy76jk5mtoollwrdrwur32mgc34ou4mrz2juduzlq'
 MESSAGE_ENDPOINT='<STREAM_END_POINT>'
 #MESSAGE_ENDPOINT='https://cell-1.streaming.ap-tokyo-1.oci.oraclecloud.com'
   
